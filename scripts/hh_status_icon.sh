@@ -9,10 +9,10 @@ clean_icon=""
 waiting_icon=""
 error_icon=""
 
-# TODO emoji
-clean_default="✔"
-waiting_default="…"
-error_default="✖"
+# These emoji seem to work over my mosh and in my tmux, unlike most
+clean_default="\u270C\uFE0F"
+waiting_default="\u231B\uFE0F"
+error_default="\u2620\uFE0F"
 
 # icons are set as script global variables
 get_icon_settings() {
