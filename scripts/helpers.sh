@@ -43,7 +43,7 @@ hh_status() {
 
 flow_status() {
     get_flow_status_repo
-    flow --from tmux --retries 0 --retry-if-init false --timeout 1 "$flow_status_repo" > /dev/null 2>&1
+    flow status --from tmux --timeout 1 "$flow_status_repo" > /dev/null 2>&1
     RETURN="$?"
 
     case "$RETURN" in
