@@ -10,9 +10,9 @@ waiting_icon=""
 error_icon=""
 
 # These emoji seem to work over my mosh and in my tmux, unlike most
-clean_default="\u270C\uFE0F"
-waiting_default="\u231B\uFE0F"
-error_default="\u2620\uFE0F"
+clean_default="#[fg=colour82,bold]F"
+waiting_default="#[fg=colour11,bold]F"
+error_default="#[fg=colour9,bg=colour214,bold]F"
 
 # icons are set as script global variables
 get_icon_settings() {
